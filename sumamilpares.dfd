@@ -1,0 +1,36 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+3
+sum
+1
+0
+4
+cont
+1
+2
+9
+1
+12
+cont <= 1000
+6
+2
+3
+sum
+8
+sum+cont
+4
+cont
+6
+cont+2
+11
+4
+1
+52
+'La sumatoria de los mil primeros numeros es:' , sum
+1
