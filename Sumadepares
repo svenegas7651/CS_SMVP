@@ -1,0 +1,42 @@
+// Suma de numeros pares.cpp: define el punto de entrada de la aplicación de consola
+//
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+void sumaPares(inf a[] (
+int sumadepares = 0, sumatotal = 0;
+printf("Los valores de las entradas \n");
+for (int i = 0; i < 1000; i++)
+{
+cout << "Posicion" << i << " es " << a [i] << "\n";
+}
+printf("Numeros pares \n");
+for (int j = 0; j<1000; j++)
+{
+if (a[j] % 2 == 0)
+{
+	cout<< "La Posicion " << j << " contiene el numero " << a[j] << " por lo tanto es par \n";
+	sumadepares += a[j];
+}
+	sumatotal += a[j];
+printf("Suma de los numeros pares %d\n", sumadepares);
+printf("Suma de todos los numeros del array son %\n", sumatotal);
+system("pause");
+}
+}
+
+int main()
+{
+int a[1000];
+int j = 0;
+while (j<1000)
+{
+	printf("Ingrese el valor para la posicion %d\n", j, "");
+	cin >> a[j];
+	j = j + 1;
+}
+sumaPares(a);
+return 0;
